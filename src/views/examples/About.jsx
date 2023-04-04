@@ -4,9 +4,9 @@ const About = props => (
 
     <div className="About">
 
-        <h1> Componente About </h1>
+        <h1>Sobre</h1>
 
-        <p>our system was created by Gusta</p>
+        <p>Our system was created by ドリフト王</p>
 
     </div>
 

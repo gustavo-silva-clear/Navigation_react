@@ -6,7 +6,7 @@ const Home = props => (
 
         <h1> Inicio</h1>
 
-        <p>Bienvenido!!!</p>
+        <p>Welcome!!!</p>
 
     </div>
 

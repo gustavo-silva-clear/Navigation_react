@@ -1,5 +1,6 @@
-.App{
+.App {
 
+    display: flex;
+    height: 100vh;
 
-    
 }
