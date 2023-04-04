@@ -12,7 +12,7 @@ const Content = props => (
     <main className="Content">
     {/* Toda essa parte está diferente da do professor, analisem as diferenças */}
     <Routes>
-    <Route path="/param" element={<Param />} />
+      <Route path="/param/:id" element={<Param />} />
       <Route path="/about" element={<About />} />
       <Route path="/" exact element={<Home />} />
     </Routes>

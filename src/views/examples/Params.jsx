@@ -1,15 +1,23 @@
 import React from "react";
 
-const Param = props => (
+import { useParams } from "react-router-dom";
 
-    <div className="Param">
+const Param = props => {
 
-        <h1>Param</h1>
+    const { id }  = useParams()
 
-        <p>Valor:*****</p>
+    return (
 
-    </div>
+        <div className="Param">
 
-)
+            <h1>Param</h1>
+
+            <p>Valor: {id}!</p>
+
+        </div>
+
+    )
+
+}
 
 export default Param
