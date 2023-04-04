@@ -16,7 +16,7 @@ const Menu = props => (
                    <Link to="/param/123">Param #01</Link>
                 </li>
                 <li>
-                   <Link to="/param/Dorifto">Param #02</Link>
+                   <Link to="/param">Param #02</Link>
                 </li>
                 <li>
                    <Link to="/about">Sobre</Link>
